@@ -1,6 +1,6 @@
 const wet = require('./weather');
 
-const weather = new wet('e97d11246886d2de03003417b6d369c4');
+const weather = new wet('apiKey','cityName');
 
 weather.getWeather(function(callback){
     let agaa = callback;
