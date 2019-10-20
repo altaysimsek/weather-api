@@ -1,5 +1,5 @@
 const xhr = require('request');
-//const url = 'http://api.openweathermap.org/data/2.5/weather?q=Istanbul&appid=e97d11246886d2de03003417b6d369c4&units=metric';
+//you need a openweathermap api key
 module.exports = class Weather{
     
     constructor(apiKey,city) {
